@@ -1,6 +1,6 @@
 module.exports = {
   title: `kimbro97`,
-  description: `줌코딩의 개발일기`,
+  description: `김브로의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://kimbro97.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
