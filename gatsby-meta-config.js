@@ -14,7 +14,7 @@ module.exports = {
     name: `김형재`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['보이지 않는', '세상을 만드는'],
       thumbnail: 'kimbro.jpeg', // Path to the image in the 'asset' folder
     },
     social: {
@@ -42,15 +42,6 @@ module.exports = {
       },
       // ========================================================
       // ========================================================
-      {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
-      },
     ],
 
     projects: [
@@ -72,15 +63,14 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: 'RunnersHigh',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+          '혼자 달리는 러너들을 위한 러너 매칭서비스인 RunnersHigh를 만들어 봤습니다.',
+        techStack: ['NodeJS', 'Express', 'EC2', 'Mysql', 'Sequelize'],
+        thumbnailUrl: 'project.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          github: 'https://github.com/codestates/RunnersHigh',
+          demo: 'https://runnershigh.click/',
         },
       },
     ],
