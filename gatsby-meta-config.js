@@ -1,5 +1,5 @@
 module.exports = {
-  title: `kimbro97`,
+  title: `kimbro97 블로그`,
   description: `김브로의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://kimbro97.github.io/`,
@@ -67,7 +67,7 @@ module.exports = {
         description:
           '혼자 달리는 러너들을 위한 러너 매칭서비스인 RunnersHigh를 만들어 봤습니다.',
         techStack: ['NodeJS', 'Express', 'EC2', 'Mysql', 'Sequelize'],
-        thumbnailUrl: 'project.png',
+        thumbnailUrl: 'background.png',
         links: {
           github: 'https://github.com/codestates/RunnersHigh',
           demo: 'https://runnershigh.click/',
