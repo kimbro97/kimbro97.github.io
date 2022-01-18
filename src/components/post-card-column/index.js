@@ -8,7 +8,7 @@ function PostCardColumn({ posts, showMoreButton, moreUrl }) {
   const onMoreButtonClick = useCallback(() => {
     navigate(moreUrl);
   }, [moreUrl]);
-
+  console.log('Column', posts)
   return (
     <div className="post-card-column-wrapper">
       <div className="post-card-column">

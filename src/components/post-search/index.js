@@ -21,7 +21,7 @@ function PostSearch({ posts }) {
           ({ title, categories }) => title.includes(inputValue) || categories.includes(inputValue),
         )
       }
-      getOptionLabel={(option) => option.title}
+      getOptionLabel={(option) => option.title.split(',')[0]}
       renderInput={(params) => (
         <div className="search-input-wrapper">
           <TextField
