@@ -65,9 +65,9 @@ module.exports = {
       {
         title: 'RunnersHigh',
         description:
-          '혼자 달리는 러너들을 위한 러너 매칭서비스인 RunnersHigh를 만들어 봤습니다.',
+          '더 이상 혼자 뛰지마세요. 러닝 모임을 주도하는 러너스 하이를 통해 다양한 사람들과 만나 재밌게 달려보세요. 혼자 달리는 러너들을 위한 러너 매칭서비스인 RunnersHigh를 만들어 봤습니다.',
         techStack: ['NodeJS', 'Express', 'EC2', 'Mysql', 'Sequelize'],
-        thumbnailUrl: 'background.png',
+        thumbnailUrl: 'runnershigh.png',
         links: {
           github: 'https://github.com/codestates/RunnersHigh',
           demo: 'https://runnershigh.click/',
