@@ -1,3 +1,12 @@
+---
+emoji: 💻
+title: Toy 1,https://media.vlpt.us/images/rlagudwog/post/fb5c681f-4797-471a-b46a-448b32259993/%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7%20%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%86%A8.png
+date: '2022-01-20 20:00:00'
+author: 김브로
+tags: Algorithm
+categories: Algorithm
+---
+
 ## 문제  
 
 >말썽꾸러기 김코딩은 오늘도 장난을 치다가 조별 발표 순서가 담긴 통을 쏟고 말았습니다.  
