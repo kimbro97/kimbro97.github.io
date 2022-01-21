@@ -1,7 +1,7 @@
 ---
 emoji: 💻
 title: TIL 52일차,https://media.vlpt.us/images/rlagudwog/post/aea0bbda-ed17-47ef-801d-3953fdfa8240/TIL%20Thumbnail.png
-date: '2022-01-19 21:30:00'
+date: '2022-01-20 22:30:00'
 author: 김브로
 tags: TIL
 categories: TIL
