@@ -1,7 +1,7 @@
 ---
 emoji: 💻
-title: TIL 59일차,https://media.vlpt.us/images/rlagudwog/post/aea0bbda-ed17-47ef-801d-3953fdfa8240/TIL%20Thumbnail.png
-date: '2022-01-27 22:40:00'
+title: TIL 60일차,https://media.vlpt.us/images/rlagudwog/post/aea0bbda-ed17-47ef-801d-3953fdfa8240/TIL%20Thumbnail.png
+date: '2022-01-28 16:40:00'
 author: 김브로
 tags: TIL
 categories: TIL
