@@ -5,7 +5,6 @@ import './style.scss';
 function PostCard({ post }) {
   const { id, slug, title, excerpt, date, categories } = post;
   const twoTitle = title.split(',')
-  console.log('Arr',twoTitle)
   return (
     <div className="post-card-wrapper">
       <Link className="post-card" key={id} to={slug}>
