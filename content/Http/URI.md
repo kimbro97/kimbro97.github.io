@@ -1,7 +1,7 @@
 ---
 emoji: 💻
 title: URI은 무엇인가?,https://media.vlpt.us/images/rlagudwog/post/fc13f60d-ae5b-4fb0-b7fd-73c00ec415c7/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202022-02-03%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.56.55.png
-date: '2022-02-23 14:00:00'
+date: '2022-02-03 14:00:00'
 author: 김브로
 tags: HTTP
 categories: HTTP
