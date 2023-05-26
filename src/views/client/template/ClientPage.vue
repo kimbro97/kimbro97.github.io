@@ -1,9 +1,7 @@
 <template>
     <main-header/>
-    <main>
-        <div>rlagudwo</div>
-    </main>
-    <main-footer />
+
+    <!-- <main-footer /> -->
 </template>
 
 <script >
