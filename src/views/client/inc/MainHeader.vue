@@ -48,7 +48,7 @@ export default {
       .search-input {
           display: flex;
           align-items: center;
-          border-bottom: 2px solid black;
+          border-bottom: 2px solid #e6e6e6;
       }
     }
 
@@ -59,6 +59,9 @@ export default {
         border: none;
         background: transparent;
         outline: none;
+        color: #e6e6e6;
+        font-size: 16px;
+        font-weight: 700;
     }
 
     .icon-container {
@@ -70,7 +73,7 @@ export default {
     .search-icon {
         width: 20px;
         height: 20px;
-        color: #000;
+        color: #e6e6e6;
     }
 
     .page-header-wrapper {
@@ -93,7 +96,7 @@ export default {
     }
 
     .page-header-wrapper .page-header .link {
-      color: #000;
+      color: #e6e6e6;
       font-size: 20px;
       font-weight: 700;
     }
@@ -107,7 +110,7 @@ export default {
     }
 
     .page-header-wrapper .page-header .link {
-      color: #000;
+      color: #e6e6e6;
       font-size: 20px;
       font-weight: 700;
     }
@@ -120,6 +123,11 @@ export default {
     div {
         display: block;
     }
+
+    .page-header-wrapper .page-header .link-title {
+      font-size: 1.5rem;
+    }
+
 
 
 </style>

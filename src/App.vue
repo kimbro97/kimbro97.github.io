@@ -1,14 +1,12 @@
 <template>
-    <client-page>
-      <div>rlagudwo</div>
-    </client-page>
+    <mainSection />
 </template>
 
 <script >
-import ClientPage from "@/views/client/template/ClientPage.vue";
+import mainSection from "@/views/client/main/MainSection.vue";
 export default {
     components: {
-      ClientPage
+        mainSection
     },
     computed: {
 

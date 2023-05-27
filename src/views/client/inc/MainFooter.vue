@@ -1,26 +1,24 @@
 <template>
     <footer class="page-footer-wrapper">
-        KIMBRO97. ALL RIGHTS RESERVED
+        <p class="page-footer">
+            © KIMBRO97. ALL RIGHTS RESERVED
+        </p>
     </footer>
 </template>
 
-<script >
-
-export default {
-  components: {
-
-  },
-  computed: {
-
-  }
-}
-
-</script>
-
 <style>
     .page-footer-wrapper {
-        height: 62px;
-        margin-top: auto;
-        width: 100%;
+      align-items: center;
+      display: flex;
+      height: 62px;
+      justify-content: center;
+      margin-top: auto;
+      width: 100%;
+    }
+    .page-footer-wrapper .page-footer {
+      max-width: 720px;
+      text-align: center;
+      width: 100%;
+      color: #e6e6e6;
     }
 </style>
