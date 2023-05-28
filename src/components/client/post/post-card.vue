@@ -34,6 +34,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
+        flex: 1
     }
     .post-card-wrapper {
       display: flex;

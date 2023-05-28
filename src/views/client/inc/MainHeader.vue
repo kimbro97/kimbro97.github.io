@@ -13,7 +13,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </header>
 </template>
@@ -77,18 +76,27 @@ export default {
     }
 
     .page-header-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
         display: flex;
         justify-content: center;
         width: 100%;
         height: 60px;
+        border-bottom: 1px solid #3e4042;
     }
 
+
     .page-header-wrapper .page-header {
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
         max-width: 720px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .page-header-wrapper .page-header .front-section .link {
