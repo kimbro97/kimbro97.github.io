@@ -1,0 +1,1 @@
+import{c as e}from"./ClientPage-39ad92d4.js";import{_ as t}from"./_plugin-vue_export-helper-c27b6911.js";import{b as n,o as c,d as s}from"./index-a3ef36ed.js";const r={components:{clientPage:e}};function a(p,_,i,m,f,l){const o=n("client-page");return c(),s(o)}const g=t(r,[["render",a]]);export{g as default};
