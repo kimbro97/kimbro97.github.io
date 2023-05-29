@@ -1,1 +1,0 @@
-import{c as e}from"./ClientPage-e75c810e.js";import{_ as t,b as n,o as c,d as s}from"./index-2ad16347.js";const a={components:{clientPage:e}};function r(p,_,i,m,f,l){const o=n("client-page");return c(),s(o)}const $=t(a,[["render",r]]);export{$ as default};
