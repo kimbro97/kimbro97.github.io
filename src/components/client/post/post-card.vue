@@ -1,23 +1,25 @@
 <template>
-    <div class="post-card-column-wrapper">
-        <div class="post-card-column">
-            <div class="post-card-wrapper">
-                <a class="post-card">
-                    <div class="title">
-                        테스트 코드를 왜 그리고 어떻게 작성해야 할까?
-                    </div>
-                    <p class="description">테스트 코드가 필요한 이유와 잘 작성하는 방법에 대해 공유합니다.</p>
-                    <div class="info">
-                        <div class="date">April 11, 2023</div>
-                        <div class="tags">
-                            <div class="tag">test</div>
-                            <div class="tag">jest</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
+  <router-link to="/post">
+      <div class="post-card-column-wrapper">
+          <div class="post-card-column">
+              <div class="post-card-wrapper">
+                  <a class="post-card">
+                      <div class="title">
+                          테스트 코드를 왜 그리고 어떻게 작성해야 할까?
+                      </div>
+                      <p class="description">테스트 코드가 필요한 이유와 잘 작성하는 방법에 대해 공유합니다.</p>
+                      <div class="info">
+                          <div class="date">April 11, 2023</div>
+                          <div class="tags">
+                              <div class="tag">test</div>
+                              <div class="tag">jest</div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </router-link>
 </template>
 
 <script>
