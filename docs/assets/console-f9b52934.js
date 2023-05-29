@@ -1,0 +1,1 @@
+import{o as s,c as a,u as t,R as o,a as r,b as c,r as n,d as p,e as u}from"./index-99da56a1.js";const _={__name:"Console",setup(m){return(f,l)=>(s(),a(t(o)))}},e=r(_),i=c({components:p,directives:u});e.use(n);e.use(i);e.mount("#app");
