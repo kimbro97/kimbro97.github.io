@@ -17,8 +17,8 @@ export default defineConfig({
       outDir: 'docs',
       rollupOptions: {
           input: {
-              index: resolve(__dirname, 'index.html'),
-              console: resolve(__dirname, 'console.html'),
+              index: 'index.html',
+              console: 'console.html',
           }
       }
   },
