@@ -3,7 +3,7 @@
 </template>
 
 <script >
-import mainSection from "../../views/client/main/MainSection.vue";
+import mainSection from "@/views/client/main/MainSection.vue";
 import { RouterView } from "vue-router"
 export default {
   components: {

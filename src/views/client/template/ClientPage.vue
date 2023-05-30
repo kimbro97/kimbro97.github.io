@@ -9,9 +9,9 @@
 </template>
 
 <script >
-import MainHeader from "../../../views/client/inc/MainHeader.vue";
-import MainFooter from "../../../views/client/inc/MainFooter.vue";
-import MainContent from "../../../views/client/inc/MainContent.vue";
+import MainHeader from "@/views/client/inc/MainHeader.vue";
+import MainFooter from "@/views/client/inc/MainFooter.vue";
+import MainContent from "@/views/client/inc/MainContent.vue";
 export default {
   components: {
     MainFooter,
