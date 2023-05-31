@@ -1,6 +1,6 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
-// import { cpa, pages } from "./vite.plugins";
+import { cpa } from "./vite.plugins";
 import vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 
@@ -20,6 +20,20 @@ export default defineConfig({
                 { dir: resolve(__dirname, './src/views/console'), baseRoute: 'console' }
             ]
         }),
+        cpa({
+            pages: {
+                index: {
+                    filename: 'index.html',
+                    entry: '/src/app-main.js',
+                    template: '/src/index.html',
+                },
+                console: {
+                    filename: 'console.html',
+                    entry: '/src/console-main.js',
+                    template: '/src/console.html',
+                },
+            },
+        }),
     ],
     resolve: {
         alias: {
@@ -31,3 +45,28 @@ export default defineConfig({
         emptyOutDir: true
     },
 })
+
+// {
+//     pages: {
+//         index: {
+//             filename: "index.html",
+//                 entry
+//         :
+//             "/src/app-main.js",
+//                 template
+//         :
+//             "/src/index.html",
+//         }
+//     ,
+//         console: {
+//             filename: "console.html",
+//                 entry
+//         :
+//             "/src/console-main.js",
+//                 template
+//         :
+//             "/src/console.html"
+//         }
+//     ,
+//     }
+// }
