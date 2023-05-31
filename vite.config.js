@@ -4,8 +4,12 @@ import vue from '@vitejs/plugin-vue'
 
 import { resolve } from 'path'
 
+const root = resolve(__dirname, 'src')
+const outDir = resolve(__dirname, 'docs')
+
 // https://vitejs.dev/config/
 export default defineConfig({
+    root,
     plugins: [vue()],
     resolve: {
         alias: {
@@ -13,11 +17,12 @@ export default defineConfig({
         }
     },
     build: {
-        outDir: 'docs',
+        outDir, // 빌드되는 디렉토리 정의
+        emptyOutDir: true,
         rollupOptions: {
             input: {
-                index: resolve(__dirname, "index.html"),
-                console: resolve(__dirname, "console.html")
+                main: resolve(root, 'index.html'),
+                console: resolve(root, 'console', 'index.html')
             }
         }
     },
