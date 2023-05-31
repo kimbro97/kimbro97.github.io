@@ -16,6 +16,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.3.5"
+    "cli-color": "^2.0.3",
+    "ejs": "^3.1.9",
+    "vite": "^4.3.5",
+    "vite-plugin-pages": "^0.30.1"
   }
 }

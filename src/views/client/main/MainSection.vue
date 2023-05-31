@@ -21,7 +21,9 @@ export default {
         PostCard
     },
     data() {
+        return {
 
+        }
     }
 }
 

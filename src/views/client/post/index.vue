@@ -8,8 +8,8 @@
 import clientPage from "@/views/client/template/ClientPage.vue";
 
 export default {
-    components: {
-      clientPage
-    }
+  components: {
+    clientPage
+  }
 }
 </script>

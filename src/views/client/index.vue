@@ -1,5 +1,5 @@
 <template>
-    <mainSection/>
+  <mainSection/>
 </template>
 
 <script >
