@@ -1,5 +1,7 @@
+import '@/assets/app-main.css'
+
 import { createApp } from 'vue'
-import App from '@/Console.vue'
+import App from '@/app.client.vue'
 import router from '@/router'
 
 // Vuetify

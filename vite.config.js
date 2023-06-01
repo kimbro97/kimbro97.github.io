@@ -24,12 +24,12 @@ export default defineConfig({
             pages: {
                 index: {
                     filename: 'index.html',
-                    entry: '/src/app-main.js',
+                    entry: '/src/index.client.js',
                     template: '/src/index.html',
                 },
                 console: {
                     filename: 'console.html',
-                    entry: '/src/console-main.js',
+                    entry: '/src/index.console.js',
                     template: '/src/console.html',
                 },
             },
