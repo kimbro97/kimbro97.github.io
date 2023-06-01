@@ -22,8 +22,12 @@ const vuetify = createVuetify({
             light: {
                 dark: false,
                 colors: {
-                    primary: "#00C471",
-                    secondary: "#FFCDD2"
+                    primary: colors.blue.darken3,
+                    secondary: '#414c60',
+                    accent: colors.blue.lighten1,
+                    "app-bar": '#2a3141',
+                    content: "#EDF0F5",
+                    anchor: '#333',
                 }
             }
         }
