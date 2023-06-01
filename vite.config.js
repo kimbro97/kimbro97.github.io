@@ -42,31 +42,12 @@ export default defineConfig({
     },
     build: {
         outDir, // 빌드되는 디렉토리 정의
-        emptyOutDir: true
+        emptyOutDir: true,
+        rollupOptions: {
+            input: {
+                index: resolve(root, "index.html"),
+                console: resolve(root, "console.html")
+            }
+        }
     },
 })
-
-// {
-//     pages: {
-//         index: {
-//             filename: "index.html",
-//                 entry
-//         :
-//             "/src/app-main.js",
-//                 template
-//         :
-//             "/src/index.html",
-//         }
-//     ,
-//         console: {
-//             filename: "console.html",
-//                 entry
-//         :
-//             "/src/console-main.js",
-//                 template
-//         :
-//             "/src/console.html"
-//         }
-//     ,
-//     }
-// }
