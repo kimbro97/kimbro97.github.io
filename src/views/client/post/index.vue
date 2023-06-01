@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import clientPage from "@/views/client/template/ClientPage.vue";
+import clientPage from "@/components/client/template/ClientPage.vue";
 
 export default {
   components: {
