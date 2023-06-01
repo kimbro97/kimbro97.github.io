@@ -9,7 +9,7 @@
                 <div class="search-input">
                     <input class="input-field" type="text">
                     <div class="icon-container">
-                      <svg-icon class="search-icon" type="mdi" :path="path"></svg-icon>
+                        <svg-icon class="search-icon" type="mdi" :path="path"></svg-icon>
                     </div>
                 </div>
             </div>
@@ -18,12 +18,8 @@
 </template>
 
 <script >
-import SvgIcon from '@jamescoyle/vue-icon'
 import { mdiMagnify } from '@mdi/js';
 export default {
-    components: {
-      SvgIcon
-    },
     data() {
         return {
             path: mdiMagnify

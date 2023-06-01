@@ -9,18 +9,18 @@
 </template>
 
 <script >
-import MainHeader from "@/views/client/inc/MainHeader.vue";
-import MainFooter from "@/views/client/inc/MainFooter.vue";
-import MainContent from "@/views/client/inc/MainContent.vue";
+import MainHeader from "@/components/client/inc/MainHeader.vue";
+import MainFooter from "@/components/client/inc/MainFooter.vue";
+import MainContent from "@/components/client/inc/MainContent.vue";
 export default {
-  components: {
-    MainFooter,
-    MainHeader,
-    MainContent
-  },
-  computed: {
+    components: {
+        MainFooter,
+        MainHeader,
+        MainContent
+    },
+    computed: {
 
-  }
+    }
 }
 
 </script>

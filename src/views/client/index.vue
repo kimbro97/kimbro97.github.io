@@ -1,9 +1,9 @@
 <template>
-  <mainSection/>
+    <mainSection/>
 </template>
 
 <script >
-import mainSection from "@/views/client/main/MainSection.vue";
+import mainSection from "@/components/client/main/MainSection.vue";
 import { RouterView } from "vue-router"
 export default {
   components: {

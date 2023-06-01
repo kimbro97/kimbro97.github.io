@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ClientPage from "@/views/client/template/ClientPage.vue";
+import ClientPage from "@/components/client/template/ClientPage.vue";
 import PostTabs from "@/components/client/post/post-tabs.vue";
 import PostCard from "@/components/client/post/post-card.vue";
 

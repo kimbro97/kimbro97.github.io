@@ -1,7 +1,7 @@
 <template>
-  <main class="page-content">
-      <slot />
-  </main>
+    <main class="page-content">
+        <slot />
+    </main>
 </template>
 
 <script >
