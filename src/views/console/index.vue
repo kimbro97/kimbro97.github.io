@@ -1,6 +1,6 @@
 <template>
     <v-app>
-        <v-app-bar :elevation="2" color="app-bar" density="compact">
+        <!-- <v-app-bar :elevation="2" color="app-bar" density="compact">
             <v-app-bar-nav-icon variant="text" @click="drawer = !drawer">
                 <svg-icon type="mdi" :path="path"></svg-icon>
             </v-app-bar-nav-icon>
@@ -24,17 +24,22 @@
                     </v-btn>
                 </div>
             </template>
-        </v-navigation-drawer>
-        <v-main style="height: 400px;">
-            <div>콘텐츠</div>
-        </v-main>
+        </v-navigation-drawer> -->
+        <!-- <console-app></console-app> -->
+        <console-sign-in></console-sign-in>
     </v-app>
 </template>
 
 <script>
 import { mdiMenu } from '@mdi/js';
+import consoleApp from '../../components/console/console-app.vue';
+import consoleSignIn from '../../components/console/console-sign-in.vue';
 
 export default {
+    components: {
+        consoleApp,
+        consoleSignIn
+    },
     data() {
         return {
             path: mdiMenu,
