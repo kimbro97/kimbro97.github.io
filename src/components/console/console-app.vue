@@ -1,8 +1,8 @@
 <template>
-	<console-bar @drawer="drawer = !drawer"></console-bar>
-	<console-drawer :drawer="drawer"></console-drawer>
+	<console-bar v-model="drawer"></console-bar>
+	<console-drawer v-model="drawer"></console-drawer>
 	<v-main style="height: 400px;">
-            <div>콘텐츠</div>
+            <slot />
     </v-main>
 </template>
 

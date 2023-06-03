@@ -1,5 +1,5 @@
 <template>
-	<v-navigation-drawer v-model="drawer" permanent color="#414C60">
+	<v-navigation-drawer v-bind:model-value="modelValue" permanent color="#414C60">
 		<v-list color="transparent">
 			<v-list-item prepend-icon="mdi-view-dashboard" title="Dashboard"></v-list-item>
 			<v-list-item prepend-icon="mdi-account-box" title="Account"></v-list-item>
@@ -19,12 +19,12 @@
 <script>
 export default {
 	props: {
-		// drawer: { type: Boolean, default: true }
+		modelValue: { type: Boolean, default: true }
 	},
-	data() {
-		return {
-			drawer: true
-		}
-	}
+	// data() {
+	// 	return {
+	// 		drawer: true
+	// 	}
+	// }
 }
 </script>

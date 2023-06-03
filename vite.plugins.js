@@ -5,8 +5,10 @@ export function CustomPagePlugin(options) {
             server.middlewares.use(async (req, res, next) => {
                 if (req.url === '/') {
                     req.url = `/${options.pages.index.filename}`;
-                } else if (req.url === '/console') {
+                    console.log(req.url)
+                } else if (req.url.startsWith('/console')) {
                     req.url = `/${options.pages.console.filename}`;
+                    console.log(req.url)
                 }
                 await next();
             });

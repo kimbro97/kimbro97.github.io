@@ -31,7 +31,7 @@ export default defineConfig({
                     filename: 'console.html',
                     entry: '/src/index.console.js',
                     template: '/src/console.html',
-                },
+                }
             },
         }),
     ],
