@@ -13,12 +13,12 @@ const outDir = resolve(__dirname, 'docs')
 export default defineConfig({
     plugins: [
         vue(),
-        Pages({
-            dirs: [
-                { dir: resolve(__dirname, './src/views/client'), baseRoute: '' },
-                { dir: resolve(__dirname, './src/views/console'), baseRoute: 'console' }
-            ]
-        }),
+        // Pages({
+        //     dirs: [
+        //         { dir: resolve(__dirname, './src/views/client'), baseRoute: '' },
+        //         { dir: resolve(__dirname, './src/views/console'), baseRoute: 'console' }
+        //     ]
+        // }),
         cpa({
             pages: {
                 index: {
