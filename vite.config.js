@@ -5,10 +5,12 @@ import Pages from 'vite-plugin-pages'
 
 import { resolve } from 'path'
 
+const root = resolve(__dirname, 'src')
 const outDir = resolve(__dirname, 'docs')
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    root,
     plugins: [
         vue(),
         // Pages({
