@@ -7,7 +7,6 @@ export function CustomPagePlugin(options) {
                     req.url = `/${options.pages.index.filename}`;
                 } else if (req.url.startsWith('/console')) {
                     req.url = `/${options.pages.console.filename}`;
-                    req.headers['x-vite-entry'] = `${options.pages.console.entry}`;
                 }
                 await next();
             });

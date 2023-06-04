@@ -11,7 +11,6 @@ const outDir = resolve(__dirname, 'docs')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    root,
     plugins: [
         vue(),
         Pages({
@@ -25,12 +24,12 @@ export default defineConfig({
                 index: {
                     filename: 'index.html',
                     entry: '/src/index.client.js',
-                    template: '/src/index.html',
+                    template: '/index.html',
                 },
                 console: {
                     filename: 'console.html',
                     entry: '/src/index.console.js',
-                    template: '/src/console.html',
+                    template: '/console.html',
                 }
             },
         }),
@@ -45,8 +44,8 @@ export default defineConfig({
         emptyOutDir: true,
         rollupOptions: {
             input: {
-                index: resolve(root, "index.html"),
-                console: resolve(root, "console.html")
+                index: resolve("index.html"),
+                console: resolve("console.html")
             }
         }
     },
