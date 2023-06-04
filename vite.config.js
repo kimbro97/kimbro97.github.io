@@ -43,9 +43,16 @@ export default defineConfig({
         outDir, // 빌드되는 디렉토리 정의
         emptyOutDir: true,
         rollupOptions: {
+            external: ['vue', 'vue-router'],
             input: {
                 index: resolve("index.html"),
                 console: resolve("console.html")
+            },
+            output: {
+                globals: {
+                    vue: 'Vue',
+                    'vue-router': 'VueRouter'
+                }
             }
         }
     },

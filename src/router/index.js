@@ -14,10 +14,6 @@ const router = createRouter({
       path: '/post',
       component: () => import('../views/client/post/index.vue')
     },
-    // {
-    //   path: '/post',
-    //   component: () => import('../views/client/post/PostList.vue')
-    // },
     // 관리자 페이지 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     {
       path: '/console',
