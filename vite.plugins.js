@@ -5,10 +5,9 @@ export function CustomPagePlugin(options) {
             server.middlewares.use(async (req, res, next) => {
                 if (req.url === '/') {
                     req.url = `/${options.pages.index.filename}`;
-                    console.log(req.url)
                 } else if (req.url.startsWith('/console')) {
                     req.url = `/${options.pages.console.filename}`;
-                    console.log(req.url)
+                    req.headers['x-vite-entry'] = `${options.pages.console.entry}`;
                 }
                 await next();
             });
