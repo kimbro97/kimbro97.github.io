@@ -24,5 +24,6 @@ export default defineConfig({
     },
     build: {
         outDir, // 빌드되는 디렉토리 정의
+        emptyOutDir: true,
     },
 })
