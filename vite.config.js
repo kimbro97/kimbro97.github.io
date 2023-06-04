@@ -11,11 +11,11 @@ const outDir = resolve(__dirname, 'docs')
 export default defineConfig({
     plugins: [
         vue(),
-        Pages({
-            dirs: [
-                { dir: resolve(__dirname, './src/views/client'), baseRoute: '' }
-            ]
-        }),
+        // Pages({
+        //     dirs: [
+        //         { dir: resolve(__dirname, './src/views/client'), baseRoute: '' }
+        //     ]
+        // }),
     ],
     resolve: {
         alias: {
